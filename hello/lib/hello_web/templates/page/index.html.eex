@@ -1,0 +1,27 @@
+<div style = "width:70%;float:left;padding-right:5%">
+    
+   <input id="chat-input" type="text" placeholder="Enter Your tweet. Press ENTER to send tweet" class="form-control" ></input><br>
+    <div class="form-group ">
+				<input name="group100" type="radio" id="radio100">
+				<label for="radio100">Subscribed tweets</label>
+			
+				<input name="group100" type="radio" id="radio101" checked>
+				<label for="radio101">Tagged Username</label>
+		
+				<input name="group100" type="radio" id="radio102">
+				<label for="radio102"><input type="hashtag" class="form-control" id="hashtag-input" placeholder="Enter HashTag"></label>
+				<button id="search" type="submit" class="btn btn-primary">Search</button>
+	</div>
+    <div id="messages"> </div>
+</div>
+<div style="width:28%;float:left">
+    <br>
+    <input type="text" id="username-input" class="form-control" placeholder="Enter Username"><br/>
+    <Button id="login" type="submit" class="btn btn-primary">Log in</Button><br/><br/>
+    <input placeholder="Subscribe to" class="form-control" id="subscribe-input" type="text"></input>
+    <div id="subscribers"> </div>
+</div>
+
+
+
+
